@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin:0;
+}
+
+body {
+    background-color: rgb(255, 152, 200);
+}
+
+#theCanvas {
+    width:642px;
+    height:546px;
+    margin-top: 50px;
+    position:absolute;
+    left: 70px;
+    cursor:pointer;
+}
+
+.rightWrap {
+    width: 600px;
+    height: 546px;
+    position:relative;
+    right: -770px;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    padding-top:155px;
+    cursor:default;
+}
+
+#title{
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Press Start 2P';
+    text-shadow: 4px 4px 0px hotpink, 8px 8px 0px white;
+}
+#title::selection{
+    background-color: white;
+    color: hotpink;
+}
+
+#score{
+    margin-top:80px;
+    font-size:32px;
+    text-shadow: 2px 2px 0px white;
+}
+
+button{
+    font-family: 'DotGothic16', sans-serif;
+    margin-top:70px;
+    border:none;
+    cursor:pointer;
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+    background-color: rgb(255, 79, 152);
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px black;
+}
+
+button:hover{
+    background-color: white;
+    color:rgb(255, 79, 152);
+    text-shadow: none;
+}
+
+#scoreButton{
+    margin-right:15px;
+}
+
+#speedButton{
+    margin-left:15px;
+}
